@@ -23,7 +23,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
 	cors({
-		origin:"https://elite-client-vagish.vercel.app/",
+		origin:"https://elite-client-vagish.vercel.app",
 		credentials:true,
 	})
 )
